@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SearchForm from './src/components/search-form';
 
 
 class App extends React.Component {
@@ -7,7 +8,8 @@ class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>MCR Energy</Text>
-        <Text>Some more text</Text>
+        <Text>Version 2</Text>
+        <SearchForm/>
       </View>
     );
   }
